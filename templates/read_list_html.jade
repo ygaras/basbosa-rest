@@ -1,0 +1,13 @@
+table.basbosa-table
+  tr
+    each field in dataFields
+      th #{field}
+    th Actions
+  each row in data
+    tr
+      each field in dataFields
+        td #{row[field]}
+      td
+        a(href=resourceRoot + '/edit/' + row._id) Edit
+        |
+        a(href=resourceRoot + '/delete/' + row._id, onclick='return confirm("Are you sure?")') Delete
