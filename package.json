@@ -1,0 +1,13 @@
+{
+  "name": "basbosa-rest",
+  "version": "0.0.1",
+  "description": "A RESTfull interface for Basbosa",
+  "author": {
+    "name": "Youssef Garas",
+    "email": "ygaras@hub43.com"
+  },
+  "dependencies": {
+    "basbosa-registry"	: "https://github.com/ygaras/basbosa-registry/tarball/master"
+
+  }   
+}
