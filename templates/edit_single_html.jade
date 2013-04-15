@@ -1,0 +1,8 @@
+.basbosa-json
+  pre!= JSON.stringify(data, undefined, 2)
+
+form
+  textarea.basbosa-json(name="data")!= JSON.stringify(data, undefined, 2)
+  input(type="submit")
+
+
